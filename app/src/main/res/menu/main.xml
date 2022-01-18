@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <!--   <item android:title="User">
+        <menu>
+            <item android:id="@+id/login"
+                android:title="Login"
+                android:icon="@drawable/primary"/>
+
+            <item android:id="@+id/my_order"
+                android:title="My order"
+                android:icon="@drawable/primary"/>
+
+            <item android:id="@+id/cart"
+                android:title="Cart"
+                android:icon="@drawable/primary"/>
+
+            <item android:id="@+id/wallet"
+                android:title="Wallet"
+                android:icon="@drawable/primary"/>
+
+
+            <item android:id="@+id/history"
+                android:title="History"
+                android:icon="@drawable/primary"/>
+
+        </menu>
+
+    </item>
+    -->
+
+    <item android:title="App">
+        <menu>
+            <item android:id="@+id/Rating"
+                android:title="রেটিং অ্যাপস"
+                android:icon="@drawable/rating"/>
+
+            <item android:id="@+id/share"
+                android:title="শেয়ার অ্যাপস"
+                android:icon="@drawable/sharing"/>
+
+            <item android:id="@+id/moreapp"
+                android:title="আরো অ্যাপস"
+                android:icon="@drawable/apps"/>
+
+
+
+
+        </menu>
+
+    </item>
+
+</menu>

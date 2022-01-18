@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:background="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সংখ্যা"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+    </androidx.appcompat.widget.Toolbar>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="0dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="4"
+
+    tools:context=".Number">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false">
+
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:onClick="banglashonka"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:src="@drawable/count"
+                    android:layout_width="300dp"
+                    android:padding="7dp"
+                    android:layout_height="100dp"/>
+
+                <View
+                    android:layout_margin="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:padding="10dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="বাংলা সংখ্যা"
+                    android:textColor="@android:color/black"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false">
+
+        <androidx.cardview.widget.CardView
+            android:clickable="true"
+            android:onClick="englishShonka"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:src="@drawable/countt"
+                    android:layout_width="300dp"
+                    android:padding="7dp"
+                    android:layout_height="100dp"/>
+
+                <View
+                    android:layout_margin="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:padding="10dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ইংরেজি সংখ্যা"
+                    android:textColor="@android:color/black"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    <!--ads-->
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

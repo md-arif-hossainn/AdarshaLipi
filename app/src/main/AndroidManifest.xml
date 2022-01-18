@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adorsholipi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+
+       <!--meta-->
+        <meta-data android:name="com.startapp.sdk.APPLICATION_ID" android:value="205543590" />
+
+        <activity
+            android:name=".magicbord"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".englishMonth"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".banglaMonth"
+            android:parentActivityName=".Month" />
+        <activity
+            android:name=".englishShonka"
+            android:parentActivityName=".Number" />
+        <activity
+            android:name=".banglaShonka"
+            android:parentActivityName=".Number" />
+        <activity
+            android:name=".englishRitu"
+            android:parentActivityName=".Ritu" />
+        <activity
+            android:name=".banglaRitu"
+            android:parentActivityName=".Ritu" />
+        <activity
+            android:name=".englishWeek"
+            android:parentActivityName=".WeekBar" />
+        <activity
+            android:name=".banglaWeek"
+            android:parentActivityName=".WeekBar" />
+        <activity
+            android:name=".BanjonBorno"
+            android:parentActivityName=".BanglaBornomala" />
+        <activity
+            android:name=".shorborno"
+            android:parentActivityName=".BanglaBornomala" />
+        <activity
+            android:name=".Colour"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Fruits"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Flower"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Month"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Number"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EnglishBornomala"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Ritu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WeekBar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BanglaBornomala"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

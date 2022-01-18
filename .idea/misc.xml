@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AdorshoLipi/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.13697916666666668" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_bangla_bornomala.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_bangla_month.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_bangla_ritu.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_bangla_shonka.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_bangla_week.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_banjon_borno.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_colour.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_english_bornomala.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_english_month.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_english_ritu.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_english_shonka.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_english_week.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_flower.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_fruits.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_magicbord.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_main.xml" value="0.14492753623188406" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_month.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_number.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_ritu.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_shorborno.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_splash.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/activity_week_bar.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/banjonborno_item_list.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/englishbornomala_item_list.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/fol_iten_list.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/ful_item_list.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/header.xml" value="0.1796875" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/shorborno_item_list.xml" value="0.1" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/layout/view_display.xml" value="0.12083333333333333" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/menu/main.xml" value="0.1796875" />
+        <entry key="..\:/AdorshoLipi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19282051282051282" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+
+        app:cardElevation="4sp"
+        app:cardCornerRadius="0dp"
+        android:layout_margin="4sp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="10sp"
+                android:src="@drawable/oli"
+                android:id="@+id/imageviewEn"
+                android:layout_width="200sp"
+                android:layout_height="200sp"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textNameEL"
+                    android:textColor="#0A29ED"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:layout_margin="10sp"
+                    android:text="Letter Name"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#AE0C0C"
+                    android:id="@+id/textNameEB"
+                    android:layout_margin="10sp"
+                    android:text="Name"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

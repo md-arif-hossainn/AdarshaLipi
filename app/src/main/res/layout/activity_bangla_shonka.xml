@@ -1,0 +1,2402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:gravity="center"
+    android:weightSum="1"
+
+    android:padding="5sp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".banglaShonka">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:background="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলা সংখ্যা"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="এক"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:textColor="#0A29ED"
+                            android:text="২"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="দুই"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="#0A29ED"
+                            android:textSize="50dp"
+                            android:text="৩"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="তিন"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textColor="#0A29ED"
+                            android:textSize="50dp"
+                            android:text="৪"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="চার"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:textColor="#0A29ED"
+                            android:text="৫"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পাঁচ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৬"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ছয়"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৭"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="সাত"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৮"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="আট"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৯"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="নয়"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১০"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="দশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১১"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="এগারো"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১২"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="বারো"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৩"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="তেরো"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৪"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="চোদ্দ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৫"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পনেরো"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৬"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ষোল"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৭"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="সতেরো"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৮"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="আঠারো"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="১৯"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="উনিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২০"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="কুড়ি"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২১"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="একুশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২২"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="বাইশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৩"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="তেইশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৪"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="চব্বিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৫"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পঁচিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৬"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ছাব্বিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৭"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="সাতাশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৮"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="আঠাশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="২৯"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ঊনত্রিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩০"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ত্রিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩১"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="একত্রিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩২"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="বত্রিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৩"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="তেত্রিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৪"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="চৌত্রিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৫"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পঁয়ত্রিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৬"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ছত্রিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৭"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="সাঁয়ত্রিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৮"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="আটত্রিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৩৯"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ঊনচল্লিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪০"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="চল্লিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪১"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="একচল্লিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪২"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="বিয়াল্লিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৩"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="তেতাল্লিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৪"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="চুয়াল্লিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৫"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পঁয়তাল্লিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৬"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ছেচল্লিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৭"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="সাতচল্লিশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৮"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="আটচল্লিশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৪৯"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ঊনপঞ্চাশ"
+                            android:textColor="#AE0C0C"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="0dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:textAlignment="center"
+                            android:textSize="50dp"
+                            android:text="৫০"
+                            android:textColor="#0A29ED"
+                            android:layout_width="wrap_content"
+                            android:padding="0dp"
+                            android:layout_height="wrap_content"/>
+                        <View
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:padding="10dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="পঞ্চাশ"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#AE0C0C"
+                            android:textStyle="bold"
+                            android:textSize="16dp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
